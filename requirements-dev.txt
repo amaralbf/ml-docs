@@ -1,0 +1,23 @@
+# testing
+pytest
+coverage[toml]
+hypothesis[pandas]
+tox
+
+# pre-commit
+pre-commit
+
+# style and linting
+black==22.8.0
+flake8==3.9.2
+isort==5.10.1
+
+# type-checking
+mypy==0.982
+
+# docs
+mkdocs-material
+mkdocstrings[python]
+
+# jupyter
+ipykernel
